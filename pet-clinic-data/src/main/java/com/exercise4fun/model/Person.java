@@ -1,4 +1,4 @@
-package com.exercise4fun.sfgpetclinic.model;
+package com.exercise4fun.model;
 
 import lombok.Getter;
 import lombok.Setter;

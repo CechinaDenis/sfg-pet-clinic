@@ -2,9 +2,11 @@ package com.exercise4fun.services.map;
 
 import com.exercise4fun.model.Owner;
 import com.exercise4fun.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapServices<Owner, Long> implements OwnerService {
 
     @Override

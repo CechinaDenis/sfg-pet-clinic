@@ -2,9 +2,11 @@ package com.exercise4fun.services.map;
 
 import com.exercise4fun.model.Vet;
 import com.exercise4fun.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapServices<Vet, Long> implements VetService {
 
     @Override

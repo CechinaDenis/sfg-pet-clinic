@@ -2,9 +2,47 @@
 <html lang="en" xmlns:th="https://www.thymeleaf.org/">
 <head>
     <meta charset="UTF-8">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        table#t01 tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        table#t01 tr:nth-child(odd) {
+            background-color: #fff;
+        }
+    </style>
     <title>List of Owners</title>
 </head>
 <body>
-<h1 th:text="'List of Pet Owners'">List of Pet Owners</h1>
+
+<h1 align="center" th:text="'List of Pet Owners'">List of Pet Owners</h1>
+
+<table align="center" style="width:80%", id="t01">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Surname</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="owner : ${owners}">
+        <td th:text="${owner.id}">ID...</td>
+        <td th:text="${owner.firstName}">fName...</td>
+        <td th:text="${owner?.lastName}">lName...</td>
+    </tr>
+    </tbody>
+</table>
+
 </body>
 </html>

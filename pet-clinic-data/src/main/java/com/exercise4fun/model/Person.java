@@ -1,11 +1,15 @@
 package com.exercise4fun.model;
 
+import lombok.Getter;
+
 public class Person extends BaseEntity {
 
-    //    @Getter@Setter
+    //    @Setter
+    @Getter
     private String firstName;
 
-    //    @Getter@Setter
+    //    @Setter
+    @Getter
     private String lastName;
 
     public void setFirstName(String firstName) {
@@ -15,6 +19,4 @@ public class Person extends BaseEntity {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
-
 }

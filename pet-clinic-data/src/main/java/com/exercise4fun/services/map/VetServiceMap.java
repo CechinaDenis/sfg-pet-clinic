@@ -1,11 +1,11 @@
 package com.exercise4fun.services.map;
 
 import com.exercise4fun.model.Vet;
-import com.exercise4fun.services.CrudService;
+import com.exercise4fun.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapServices<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapServices<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {

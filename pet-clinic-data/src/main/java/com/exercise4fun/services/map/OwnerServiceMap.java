@@ -1,11 +1,11 @@
 package com.exercise4fun.services.map;
 
 import com.exercise4fun.model.Owner;
-import com.exercise4fun.services.CrudService;
+import com.exercise4fun.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapServices<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapServices<Owner, Long> implements OwnerService {
 
     @Override
     public Set<Owner> findAll() {
@@ -25,5 +25,10 @@ public class OwnerServiceMap extends AbstractMapServices<Owner, Long> implements
     @Override
     public void deleteById(Long id) {
         super.deleteById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }

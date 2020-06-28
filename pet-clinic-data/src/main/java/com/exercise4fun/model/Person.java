@@ -1,14 +1,20 @@
 package com.exercise4fun.model;
 
-import lombok.Getter;
-import lombok.Setter;
+public class Person extends BaseEntity {
 
-public class Person extends BaseEntity{
-
-    @Getter@Setter
+    //    @Getter@Setter
     private String firstName;
-    @Getter@Setter
+
+    //    @Getter@Setter
     private String lastName;
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 
 
 }

@@ -1,13 +1,13 @@
 package com.exercise4fun.model;
 
-import lombok.Setter;
-
 import java.io.Serializable;
 
 public class BaseEntity implements Serializable {
 
-//    @Getter
-    @Setter
+    public void setId(Long id) {this.id = id;}
+
+    //    @Getter
+//    @Setter
     private Long id;
 
     public Long getId() {

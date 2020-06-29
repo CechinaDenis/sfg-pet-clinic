@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}

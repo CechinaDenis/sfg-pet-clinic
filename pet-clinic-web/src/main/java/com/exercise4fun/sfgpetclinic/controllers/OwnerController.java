@@ -1,6 +1,6 @@
-package com.exercise4fun.controllers;
+package com.exercise4fun.sfgpetclinic.controllers;
 
-import com.exercise4fun.services.OwnerService;
+import com.exercise4fun.sfgpetclinic.services.OwnerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

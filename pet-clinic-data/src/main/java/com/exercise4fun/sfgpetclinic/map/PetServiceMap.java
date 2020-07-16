@@ -1,7 +1,7 @@
-package com.exercise4fun.services.map;
+package com.exercise4fun.sfgpetclinic.map;
 
-import com.exercise4fun.model.Pet;
-import com.exercise4fun.services.PetService;
+import com.exercise4fun.sfgpetclinic.model.Pet;
+import com.exercise4fun.sfgpetclinic.services.PetService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;

@@ -1,9 +1,9 @@
-package com.exercise4fun.bootstrap;
+package com.exercise4fun.sfgpetclinic.bootstrap;
 
-import com.exercise4fun.model.Owner;
-import com.exercise4fun.model.Vet;
-import com.exercise4fun.services.OwnerService;
-import com.exercise4fun.services.VetService;
+import com.exercise4fun.sfgpetclinic.model.Owner;
+import com.exercise4fun.sfgpetclinic.model.Vet;
+import com.exercise4fun.sfgpetclinic.services.OwnerService;
+import com.exercise4fun.sfgpetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

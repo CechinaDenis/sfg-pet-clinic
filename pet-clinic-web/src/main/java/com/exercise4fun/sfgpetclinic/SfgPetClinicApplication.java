@@ -1,4 +1,4 @@
-package com.exercise4fun;
+package com.exercise4fun.sfgpetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

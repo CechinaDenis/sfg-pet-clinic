@@ -1,4 +1,4 @@
-package com.exercise4fun.services;
+package com.exercise4fun.sfgpetclinic.services;
 
 import java.util.Set;
 

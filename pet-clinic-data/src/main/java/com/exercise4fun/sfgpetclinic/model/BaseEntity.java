@@ -1,4 +1,4 @@
-package com.exercise4fun.model;
+package com.exercise4fun.sfgpetclinic.model;
 
 import java.io.Serializable;
 

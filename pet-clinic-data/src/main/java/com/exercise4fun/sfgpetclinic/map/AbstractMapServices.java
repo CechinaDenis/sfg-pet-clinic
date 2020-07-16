@@ -1,6 +1,6 @@
-package com.exercise4fun.services.map;
+package com.exercise4fun.sfgpetclinic.map;
 
-import com.exercise4fun.model.BaseEntity;
+import com.exercise4fun.sfgpetclinic.model.BaseEntity;
 
 import java.util.*;
 
